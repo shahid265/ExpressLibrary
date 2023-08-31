@@ -13,7 +13,6 @@ data_dict = {
 }
 df = pd.DataFrame(data_dict)
 
-
 def test_bar_chart_initialization():
     chart = BarChart(df, 'Category', ['Value1', 'Value2'])
     assert chart.data.equals(df)
