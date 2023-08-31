@@ -1,10 +1,3 @@
-# # import unittest
-# # import os
-# # from src.visualizations.bar_chart import BarChart
-
-
-
-
 import pytest
 import pandas as pd
 import sys
@@ -19,12 +12,7 @@ data_dict = {
     'Value2': [4, 5, 6]
 }
 df = pd.DataFrame(data_dict)
-# x = 'Category'
-# y = ['Value1', 'Value2']
-# chart = BarChart(df, x, y)
 
-# chart.create_stacked_bar()
-# chart.create_grouped_bar()
 
 def test_bar_chart_initialization():
     chart = BarChart(df, 'Category', ['Value1', 'Value2'])
