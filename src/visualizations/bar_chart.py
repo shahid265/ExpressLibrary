@@ -2,7 +2,7 @@ import sys
 sys.path.append('E:\\Assignments\\FTI\\library\\express_visualization_library')
 __package__ = "visualizations"
 
-from .base_chart import BaseChart
+from .base_bar_chart import BaseChart
 import plotly.express as px
 import plotly.graph_objects as go
 
