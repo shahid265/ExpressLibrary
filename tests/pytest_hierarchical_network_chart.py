@@ -1,6 +1,6 @@
 import sys
 __package__ = "tests"
-sys.path.append("E:\\Assignments\\FTI\\library\\express_visualization_library")
+sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
 
 import pytest
 from src.visualizations.hierarchical_network_chart import HierarchicalNetworkChart  

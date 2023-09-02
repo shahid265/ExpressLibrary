@@ -1,7 +1,7 @@
 import plotly.express as px
 import sys
 __package__ = "src"
-sys.path.append("E:\\Assignments\\FTI\\library\\express_visualization_library")
+sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
 from src.visualizations.base_heatmap import BaseHeatmapChart
 
 class HeatmapChart(BaseHeatmapChart):
