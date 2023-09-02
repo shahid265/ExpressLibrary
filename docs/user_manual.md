@@ -16,6 +16,8 @@ Certainly! Here's the user documentation in Markdown format:
    - [Simple Circle Packing](#simple-circle-packing)
    - [Hierarchical Circle Packing](#hierarchical-circle-packing)
 7. [Hierarchical Network Charts](#hierarchical-network-charts)
+7. [Heatmap Chart](#heatmap)
+
 
 ## Introduction
 The Express Visualization Library allows you to effortlessly create interactive visualizations using the Plotly library. The main goal is to provide a simple interface for creating a variety of charts without much hassle.
@@ -140,3 +142,20 @@ from your_library import HierarchicalNetworkChart
 chart = HierarchicalNetworkChart(data)
 chart.render()
 ```
+## Heatmap
+
+You can create a heatmap like this:
+
+```python
+from src.visualizations.heatmap_chart import HeatmapChart
+import numpy as np
+
+data = np.array([[1, 2], [3, 4]])
+chart = HeatmapChart(data, title="Sample Heatmap")
+chart.set_color_scheme("Viridis")
+chart.render()
+```
+
+### Features:
+
+- **Color Scheme**: You can set the color scheme of the heatmap using the `set_color_scheme()` method.
