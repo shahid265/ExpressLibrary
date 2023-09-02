@@ -35,12 +35,3 @@ bar_chart(data, x='Name', y='Value')
 - Hierarchical network chart
 - Heatmaps
 
-
-## Contributing
-
-For contributing guidelines, please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
-
