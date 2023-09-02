@@ -1,5 +1,5 @@
 Certainly! Here's the user documentation in Markdown format:
-# Express Visualization Library: User Documentation
+# ExpressLibrary: User Documentation
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -20,10 +20,10 @@ Certainly! Here's the user documentation in Markdown format:
 
 
 ## Introduction
-The Express Visualization Library allows you to effortlessly create interactive visualizations using the Plotly library. The main goal is to provide a simple interface for creating a variety of charts without much hassle.
+The ExpressLibrary allows you to effortlessly create interactive visualizations using the Plotly library. The main goal is to provide a simple interface for creating a variety of charts without much hassle.
 
 ## Installation
-To install the Express Visualization Library, clone the GitHub repository or download it directly. Once you've downloaded the library, navigate to the root directory and run the setup script.
+To install the ExpressLibrary, clone the GitHub repository or download it directly. Once you've downloaded the library, navigate to the root directory and run the setup script.
 
 ```bash
 python setup.py install
@@ -38,7 +38,7 @@ All charts in the library inherit from the BaseChart class. This class provides 
 To create a simple bar chart:
 
 ```python
-from visualizations import BarChart
+from ExpressLibrary import BarChart
 
 # Load your data (as pandas DataFrame)
 data = ...
@@ -76,7 +76,7 @@ chart.create_grouped_bar()
 To visualize data in a scatter format:
 
 ```python
-from visualizations import ScatterPlot
+from ExpressLibrary import ScatterPlot
 
 # Load your data
 data = ...
@@ -108,7 +108,7 @@ Use `SimpleCirclePackingChart` to visualize non-hierarchical data in a circle pa
 Example:
 
 ```python
-from your_library import SimpleCirclePackingChart
+from ExpressLibrary import SimpleCirclePackingChart
 
 data = [5, 10, 15]
 chart = SimpleCirclePackingChart(data)
@@ -122,7 +122,7 @@ Use `HierarchicalCirclePackingChart` to visualize hierarchical data.
 Example:
 
 ```python
-from your_library import HierarchicalCirclePackingChart
+from ExpressLibrary import HierarchicalCirclePackingChart
 
 # data is a nested structure representing the hierarchy
 chart = HierarchicalCirclePackingChart(data)
@@ -136,7 +136,7 @@ Visualize hierarchical data as a network chart.
 Example:
 
 ```python
-from your_library import HierarchicalNetworkChart
+from ExpressLibrary import HierarchicalNetworkChart
 
 # data should be a DataFrame with ID, Parent, and Name columns
 chart = HierarchicalNetworkChart(data)
@@ -147,7 +147,7 @@ chart.render()
 You can create a heatmap like this:
 
 ```python
-from src.visualizations.heatmap_chart import HeatmapChart
+from ExpressLibrary import HeatmapChart
 import numpy as np
 
 data = np.array([[1, 2], [3, 4]])

@@ -1,4 +1,4 @@
-# README.md for express_visualization_library
+# README.md for ExpressLibrary
 
 ## Table of Contents
 
@@ -10,18 +10,18 @@
 
 ## Introduction
 
-`express_visualization_library` is a Python package designed to streamline the data visualization process in a consultancy environment. This package aims to facilitate the quick transformation of data into insightful visualizations. It is developed on top of standard libraries such as Plotly and Circlify and offers easy integration with Power BI.
+`ExpressLibrary` is a Python package designed to streamline the data visualization process in a consultancy environment. This package aims to facilitate the quick transformation of data into insightful visualizations. It is developed on top of standard libraries such as Plotly and Circlify and offers easy integration with Power BI.
 
 ## Installation
 
 ```bash
-pip install express_visualization_library
+pip install ExpressLibrary
 ```
 
 ## Usage
 
 ```python
-from express_visualization_library import bar_chart
+from ExpressLibrary import bar_chart
 
 # Create a bar chart
 bar_chart(data, x='Name', y='Value')
