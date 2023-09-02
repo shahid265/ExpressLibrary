@@ -1,0 +1,11 @@
+# Core dependencies
+numpy>=1.25.2
+
+# Visualization libraries
+plotly>=5.16.1
+
+# Additional utilities
+circlify>=0.15.0
+
+# Testing libraries
+pytest>=7.4.0
