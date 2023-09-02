@@ -12,7 +12,10 @@ Certainly! Here's the user documentation in Markdown format:
 5. [Scatter Plot](#scatter-plot)
    - [Basic Scatter Plot](#basic-scatter-plot)
    - [Scatter Plot with Varying Dot Sizes](#scatter-plot-with-varying-dot-sizes)
-
+6. [Circle Packing Charts](#circle-packing-charts)
+   - [Simple Circle Packing](#simple-circle-packing)
+   - [Hierarchical Circle Packing](#hierarchical-circle-packing)
+7. [Hierarchical Network Charts](#hierarchical-network-charts)
 
 ## Introduction
 The Express Visualization Library allows you to effortlessly create interactive visualizations using the Plotly library. The main goal is to provide a simple interface for creating a variety of charts without much hassle.
@@ -94,3 +97,46 @@ chart.set_varying_dot_sizes('size_column_name')
 chart.render()
 ```
 
+## Circle Packing Charts
+
+### Simple Circle Packing
+
+Use `SimpleCirclePackingChart` to visualize non-hierarchical data in a circle packing layout.
+
+Example:
+
+```python
+from your_library import SimpleCirclePackingChart
+
+data = [5, 10, 15]
+chart = SimpleCirclePackingChart(data)
+chart.render()
+```
+
+### Hierarchical Circle Packing
+
+Use `HierarchicalCirclePackingChart` to visualize hierarchical data.
+
+Example:
+
+```python
+from your_library import HierarchicalCirclePackingChart
+
+# data is a nested structure representing the hierarchy
+chart = HierarchicalCirclePackingChart(data)
+chart.render()
+```
+
+## Hierarchical Network Charts
+
+Visualize hierarchical data as a network chart.
+
+Example:
+
+```python
+from your_library import HierarchicalNetworkChart
+
+# data should be a DataFrame with ID, Parent, and Name columns
+chart = HierarchicalNetworkChart(data)
+chart.render()
+```
