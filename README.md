@@ -35,9 +35,6 @@ bar_chart(data, x='Name', y='Value')
 - Hierarchical network chart
 - Heatmaps
 
-### Power BI Integration
-
-Detailed steps on how to integrate the produced visualizations into Power BI will be updated soon.
 
 ## Contributing
 
