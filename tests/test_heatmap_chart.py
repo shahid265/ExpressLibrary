@@ -29,3 +29,5 @@ def test_constructor_and_set_color_scheme():
 #     # Asserts on the figure dictionary
 #     assert fig_data['data'][0]['type'] == 'heatmap'
 #     assert fig_data['layout']['title']['text'] == chart.title
+
+

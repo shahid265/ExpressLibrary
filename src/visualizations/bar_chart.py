@@ -1,5 +1,3 @@
-import sys
-sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
 __package__ = "visualizations"
 
 from .base_bar_chart import BaseChart
