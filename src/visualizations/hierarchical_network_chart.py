@@ -1,4 +1,4 @@
-from .base_hierarchical_chart import BaseHierarchicalChart
+from base_hierarchical_chart import BaseHierarchicalChart
 import plotly.express as px
 
 
