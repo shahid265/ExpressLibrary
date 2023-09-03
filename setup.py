@@ -13,7 +13,7 @@ setup(
     author_email='shahid265.sr@gmail.com',
     description='Express library is a Python package designed to streamline the data visualization process in a consultancy environment. This package aims to facilitate the quick transformation of data into insightful visualizations. It is developed on top of standard libraries such as Plotly and Circlify.',
     packages=find_packages(),    
-    install_requires=['plotly', 'numpy', 'circlify', 'pytest'],
+    install_requires=['plotly', 'pandas', 'circlify', 'pytest'],
     long_description=long_description,
     long_description_content_type="text/markdown",
 )

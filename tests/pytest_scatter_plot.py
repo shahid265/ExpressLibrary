@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import sys
 __package__ = "tests"
-sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
+# sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
 from src.visualizations.scatter_plot import ScatterPlot
 
 # Sample data for the basic tests

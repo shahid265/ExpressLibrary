@@ -4,7 +4,7 @@ import plotly
 import numpy as np
 import sys
 __package__ = "tests"
-sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
+# sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
 
 
 from src.visualizations.heatmap_chart import HeatmapChart

@@ -1,5 +1,5 @@
 # Core dependencies
-numpy>=1.25.2
+pandas>=2.1.0
 
 # Visualization libraries
 plotly>=5.16.1

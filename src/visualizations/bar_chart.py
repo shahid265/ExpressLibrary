@@ -1,6 +1,6 @@
 __package__ = "visualizations"
 
-from .base_bar_chart import BaseChart
+from src.visualizations.base_bar_chart import BaseChart
 import plotly.express as px
 import plotly.graph_objects as go
 

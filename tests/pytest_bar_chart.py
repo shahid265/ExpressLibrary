@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import sys
 __package__ = "tests"
-sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
+# sys.path.append('E:\\Assignments\\FTI\\library\\ExpressLibrary')
 from src.visualizations.bar_chart import BarChart
 
 # Sample data for the tests
