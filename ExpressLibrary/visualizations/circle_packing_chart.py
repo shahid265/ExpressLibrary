@@ -1,6 +1,6 @@
 import circlify
 import matplotlib.pyplot as plt
-from base_packing_chart import BasePackingChart
+from .base_packing_chart import BasePackingChart
 
 
 class SimpleCirclePackingChart(BasePackingChart):

@@ -1,5 +1,5 @@
 import plotly.express as px
-from base_heatmap import BaseHeatmapChart
+from .base_heatmap import BaseHeatmapChart
 
 class HeatmapChart(BaseHeatmapChart):
     def __init__(self,data, title="", color_scheme="Viridis"):
