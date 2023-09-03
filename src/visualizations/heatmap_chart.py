@@ -1,5 +1,4 @@
 import plotly.express as px
-__package__ = "src"
 from src.visualizations.base_heatmap import BaseHeatmapChart
 
 class HeatmapChart(BaseHeatmapChart):

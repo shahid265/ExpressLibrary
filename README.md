@@ -21,10 +21,16 @@ pip install ExpressLibrary
 ## Usage
 
 ```python
-from ExpressLibrary import bar_chart
+from ExpressLibrary import BarChart
 
-# Create a bar chart
-bar_chart(data, x='Name', y='Value')
+# Load your data (as pandas DataFrame)
+data = ...
+
+# Create chart
+chart = BarChart(data, 'x_column_name', ['y_column_name'])
+chart.set_labels('X Label', 'Y Label')
+chart.set_colors(['blue'])
+chart.create_simple_bar()
 ```
 
 ### Available Charts:
