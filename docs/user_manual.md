@@ -38,7 +38,7 @@ All charts in the library inherit from the BaseChart class. This class provides 
 To create a simple bar chart:
 
 ```python
-from ExpressLibrary import BarChart
+from ExpressLibrary.visualizations.bar_chart import BarChart
 
 # Load your data (as pandas DataFrame)
 data = ...
@@ -76,7 +76,7 @@ chart.create_grouped_bar()
 To visualize data in a scatter format:
 
 ```python
-from ExpressLibrary import ScatterPlot
+from ExpressLibrary.visualizations.scatter_plot import ScatterPlot
 
 # Load your data
 data = ...
@@ -108,7 +108,7 @@ Use `SimpleCirclePackingChart` to visualize non-hierarchical data in a circle pa
 Example:
 
 ```python
-from ExpressLibrary import SimpleCirclePackingChart
+from ExpressLibrary.visualizations.circle_packing_chart import SimpleCirclePackingChart
 
 data = [5, 10, 15]
 chart = SimpleCirclePackingChart(data)
@@ -122,7 +122,7 @@ Use `HierarchicalCirclePackingChart` to visualize hierarchical data.
 Example:
 
 ```python
-from ExpressLibrary import HierarchicalCirclePackingChart
+from ExpressLibrary.visualizations.circle_packing_chart import HierarchicalCirclePackingChart
 
 # data is a nested structure representing the hierarchy
 chart = HierarchicalCirclePackingChart(data)
@@ -136,7 +136,7 @@ Visualize hierarchical data as a network chart.
 Example:
 
 ```python
-from ExpressLibrary import HierarchicalNetworkChart
+from ExpressLibrary.visualizations.hierarchical_network_chart import HierarchicalNetworkChart
 
 # data should be a DataFrame with ID, Parent, and Name columns
 chart = HierarchicalNetworkChart(data)
@@ -147,7 +147,7 @@ chart.render()
 You can create a heatmap like this:
 
 ```python
-from ExpressLibrary import HeatmapChart
+from ExpressLibrary.visualizations.heatmap_chart import HeatmapChart
 import numpy as np
 
 data = np.array([[1, 2], [3, 4]])

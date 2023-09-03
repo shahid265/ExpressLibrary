@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='ExpressLibrary',
-    version='0.5.0',
+    version='0.1.0',
     url='https://github.com/shahid265/ExpressLibrary.git',
     author='Shahid',
     author_email='shahid265.sr@gmail.com',
